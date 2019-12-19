@@ -1,0 +1,51 @@
+{
+    "name": "EU BON UTIS",
+    "description": "<p>The EDIT Platform for Cybertaxonomy is a collection of open source tools and services which together cover all aspects of the taxonomic workflow. The workflow is grouped into the following areas: taxonomic editing; publishing of edited data; data storage and exchange; collections and specimens; descriptions; fieldwork; literature; and geography. At the heart of the Cybertaxonomy platform is the Common Data Model (CDM), a repository for every conceivable type of data produced by taxonomists in the course of their work, and the backend for most EDIT components.<\/p>",
+    "image": "https:\/\/s3.amazonaws.com\/kinlane-productions\/api-evangelist-logos\/api-evangelist-red-seal.png",
+    "tags": [
+        "api provider",
+        "general data",
+        "have api",
+        "have swagger",
+        "taxonomies"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/eu-bon-utis\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "EU BON UTIS",
+            "description": null,
+            "image": "https:\/\/s3.amazonaws.com\/kinlane-productions\/api-evangelist-logos\/api-evangelist-red-seal.png",
+            "humanURL": "http:\/\/cybertaxonomy.eu",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/eu-bon-utis.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/eu-bon-utis-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/eu-bon-utis-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/28572-2019-09-04-08-24-39.json"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/cybertaxonomy.eu"
+        }
+    ]
+}
