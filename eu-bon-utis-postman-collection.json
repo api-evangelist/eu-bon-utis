@@ -1,0 +1,95 @@
+{
+    "id": "50b6751e28f6c716033bd15128d88302",
+    "name": "EU BON UTIS",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "d7377a98b7fabb8101293ff4894ba3a6",
+            "name": "Capabilities",
+            "url": "httpscybertaxonomy.eu\/eu-bon\/utis\/1.0\/capabilities",
+            "description": "Capabilities",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "50b6751e28f6c716033bd15128d88302",
+            "rawModeData": ""
+        },
+        {
+            "id": "11f43b7c9cfd8dfd3c466f0829a68b40",
+            "name": "Search",
+            "url": "httpscybertaxonomy.eu\/eu-bon\/utis\/1.0\/search",
+            "description": "Search",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "query",
+                    "description": "The scientific name to search for. For example: \"Bellis perennis\", \"Prionus\" or \"Bolinus brandaris\". This is an exact search so wildcard characters are not supported.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "providers",
+                    "description": "A list of provider id strings concatenated by comma characters. The default : \"pesi,bgbm-cdm-server[col]\" will be used if this parameter is not set. A list of all available provider ids can be obtained from the '\/capabilities' service end point. Providers can be nested, that is a parent provider can have sub providers. If the id of the parent provider is supplied all subproviders will be queried. The query can also be restriced to one or more subproviders by using the following syntax: parent-id",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "searchMode",
+                    "description": "Specifies the searchMode. Possible search modes are: scientificNameExact, scientificNameLike (begins with), vernacularNameExact, vernacularNameLike (contains), findByIdentifier. If the a provider does not support the chosen searchMode it will be skipped and the status message in the tnrClientStatus will be set to 'unsupported search mode' in this case.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "addSynonymy",
+                    "description": "Indicates whether the synonymy of the accepted taxon should be included into the response. Turning this option on may cause an increased response time.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "timeout",
+                    "description": "The maximum of milliseconds to wait for responses from any of the providers. If the timeout is exceeded the service will jut return the resonses that have been received so far. The default timeout is 0 ms (wait for ever)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "50b6751e28f6c716033bd15128d88302",
+            "rawModeData": ""
+        }
+    ]
+}
