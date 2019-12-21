@@ -1,5 +1,5 @@
 {
-    "id": "50b6751e28f6c716033bd15128d88302",
+    "id": "ff442d87e94760627e85a40e57277f87",
     "name": "EU BON UTIS",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "d7377a98b7fabb8101293ff4894ba3a6",
+            "id": "973327de8a7d9175dbe51f740e421b7f",
             "name": "Capabilities",
             "url": "httpscybertaxonomy.eu\/eu-bon\/utis\/1.0\/capabilities",
             "description": "Capabilities",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "50b6751e28f6c716033bd15128d88302",
+            "collectionId": "ff442d87e94760627e85a40e57277f87",
             "rawModeData": ""
         },
         {
-            "id": "11f43b7c9cfd8dfd3c466f0829a68b40",
+            "id": "ea179706608e12ad72937de9c927d993",
             "name": "Search",
             "url": "httpscybertaxonomy.eu\/eu-bon\/utis\/1.0\/search",
             "description": "Search",
@@ -88,7 +88,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "50b6751e28f6c716033bd15128d88302",
+            "collectionId": "ff442d87e94760627e85a40e57277f87",
             "rawModeData": ""
         }
     ]
